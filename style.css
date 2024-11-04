@@ -1,11 +1,8 @@
-/*Import the 'Roboto Serif' font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
 
-/* Apply 'Roboto Serif' font to all text within the chat widget */
+/* Apply 'Tiny5' font to all text within the chat widget */
 .vfrc-system-response,
 .vfrc-user-response,
 .vfrc-message {
-    font-family: 'Roboto Serif', serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: 'Tiny5', sans-serif;
 }
