@@ -1,9 +1,11 @@
-/* Import the 'Itim' font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* Import the 'Roboto Serif' font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400&display=swap');
 
-/* Apply the 'Itim' font to all text within the chat widget */
+/* Apply 'Roboto Serif' font to all text within the chat widget */
 .vfrc-system-response,
 .vfrc-user-response,
 .vfrc-message {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Serif', serif;
+    font-weight: 400;
+    font-style: normal;
 }
