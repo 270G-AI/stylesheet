@@ -1,1 +1,5 @@
-@import url "(https://fonts.google.com/share?selection.family=Rubik+Wet+Paint)"
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+
+:host{
+  --fonts-default: 'Wet Paint';
+}
