@@ -1,10 +1,28 @@
+/* Import Tiny5 font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
 
-/* Apply 'Tiny5' font to all text within the chat widget */
+/* Apply Tiny5 font to general text elements in the chat widget */
 .vfrc-system-response,
 .vfrc-user-response,
-.vfrc-message {
+.vfrc-message,
+.vfrc-heading,
+.vfrc-button,
+.vfrc-title,
+.vfrc-subtitle,
+.vfrc-ui-text {
     font-family: "Tiny5", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+/* Apply Tiny5 font to UI elements such as buttons and inputs */
+.vfrc-button {
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+}
+
+/* Apply Tiny5 font to headings and titles */
+.vfrc-title, .vfrc-subtitle, .vfrc-heading {
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
 }
