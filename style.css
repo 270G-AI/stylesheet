@@ -1,9 +1,9 @@
 /* Import the 'Itim' font */
-@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /* Apply the 'Itim' font to all text within the chat widget */
 .vfrc-system-response,
 .vfrc-user-response,
 .vfrc-message {
-    font-family: 'Itim', cursive;
+    font-family: 'Roboto', sans-serif;
 }
